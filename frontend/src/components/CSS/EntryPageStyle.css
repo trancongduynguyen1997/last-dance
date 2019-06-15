@@ -168,11 +168,11 @@
     padding-left: 0em;
 }
 .config .f-box .f-input{
+    margin-top: 0.2em;
     width: 3em;
 }
 .config .f-box .f-input::-webkit-input-placeholder {
     font-size: 0.6em;
-    margin-top: 0.2em;
 }
 .dots {
     color: white;

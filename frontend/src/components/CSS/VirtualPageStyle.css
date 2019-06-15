@@ -79,6 +79,8 @@
         width: 45%!important;
     }
     .pic {
+        position: absolute;
+        top: 0em;
         width: 366px;
         height: 312px;
         border: none!important;
@@ -92,7 +94,8 @@
         width: 100%!important;
     }
     .entry-page-wrapper .led-btn-col.col {
-        margin-top: 3em;
+        position: absolute;
+        top: 30em;
         margin-left: 3em;
     }    
     .background-pic {
