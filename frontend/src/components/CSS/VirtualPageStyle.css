@@ -79,10 +79,8 @@
         width: 45%!important;
     }
     .pic {
-        position: absolute;
         width: 366px;
         height: 312px;
-        top: 0em;
         border: none!important;
     }
     .entry-page-wrapper .fas.fa-pause {
