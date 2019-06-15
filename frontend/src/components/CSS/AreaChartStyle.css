@@ -1,0 +1,27 @@
+.xAxis-name {
+    position: absolute;
+    top: 14em;
+    left: 16.8em;
+    font-weight: bolder;
+    margin-top:0.5em;
+}
+.yAxis-name {
+    position: absolute;
+    top: 0.6em;
+    left: 3em;
+    font-weight: bolder;
+}
+.recharts-cartesian-axis-ticks text {
+    stroke-width: 0;
+    fill: white;
+}
+
+.xAxis-name.statistic {
+    font-size:1.1em;
+    top: 25.6em;
+    left: 37.6em;
+}
+.yAxis-name.statistic {
+    top: 7.8em;
+    left: 18em;
+}

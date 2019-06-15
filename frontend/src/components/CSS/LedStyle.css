@@ -1,0 +1,14 @@
+.led {
+    width: 2em;
+    height: 2em;
+    border: 1px solid #FFF;
+}
+.led-text {
+    cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+    .led {
+       width: 1.4em;
+       height: 1.4em;
+    }
+}

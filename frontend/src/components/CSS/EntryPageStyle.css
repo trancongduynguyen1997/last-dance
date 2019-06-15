@@ -1,0 +1,426 @@
+.speed-dc .dc .text {
+    right: 11.4em;
+    top: 3.4em;
+}
+.speed-dc .dc .text .smallchar {
+    top: 0em;
+    left: -2.5em;
+}
+.speed-dc .dc .unitText {
+    right: 1em;
+    top: 1.2em;
+}
+.motor-info {
+    right: 1em;
+    top: -3em;
+}
+.dc-background {
+    fill: #c3cfe2!important;
+}
+.triangle-btn-box{
+    position: absolute;
+    left: 45.6%;
+    top: 80px;
+}
+.triangle{
+    fill:  #aaa;
+}
+.triangle:hover{
+    fill:  #777;
+}
+.triangle:active{
+    fill: #000428;
+}
+.height-tc .area-chart-wrapper .xAxis-name {
+    margin: 0;
+    left: 15em;
+    top: 15em;
+    font-weight: normal;
+}
+.height-tc .area-chart-wrapper .yAxis-name {
+    margin: 0;
+    top: 1em;
+    left: 2em;
+    font-weight: normal;
+}
+.height-tc .review-btn,.height-tc .forw-btn{
+    top: 2em;
+    left: 0em;
+    width: 3em;
+    height: 12.4em;
+}
+.height-tc .forw-btn {
+    left: 28em;
+}
+.height-tc .recharts-cartesian-axis-ticks text {
+    stroke-width: 0;
+    fill: black;
+}
+
+.height-tc .fas.fa-pause {
+    position: absolute;
+    font-size: 0.5em;
+    border-radius: 2em;
+    align-self: center;
+    justify-self: center;
+    width: 3em;
+    height: 3em;
+    padding-top: 1em;
+    text-align: center;
+    right: 14.2rem;
+    top: 7rem;
+    color: white;
+    opacity: 0;
+    background: rgba(2,2,2,0.2);
+    transition: transform 0.1s ease-in-out;
+}
+.height-tc .area-chart-wrapper:active .fas.fa-pause {
+    opacity: 1;
+    transform: scale(3);
+}
+.dc-tribtn-adjust {
+    position:absolute;
+    height: 5rem;
+    width: 5rem;
+}
+.entry-page .dc-tribtn-box {
+    position: absolute;
+    top: 1.78em;
+    left: 4.8em;
+    z-index: 2;
+}
+.entry-page .dc-fre-adj {
+    position: absolute;
+    top: -2em;
+    left: -0.5em;    
+    width: 6em;
+    height: 6.3.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.4em;
+    z-index: 9999999!important;
+    background: #243b55dd;
+}
+.entry-page .dc-fre-adj-input {
+    width: 100%;
+    border: none;
+    color: black;
+}
+.entry-page .dc-fre-adj-input.th {
+    border-bottom-left-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+}
+.dc-fre-adj div {
+    color: #ffe;
+}
+.bottom-text {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+.footer-panel {
+    border: 1px solid #ccc;
+    height: 95%;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+.operate .footer-panel {
+    border: 1px solid #FF5A5F;
+}
+.notify .footer-panel {
+    border: 1px solid #087E8B;
+}
+.footer-panel.mp {
+    border: 1px solid rgb(131, 196, 132);
+    color: rgb(131, 196, 132);
+    font-style: oblique;
+    padding-left: 0.5em;
+}
+.trapezoid {
+    border-bottom: 20px solid #ccc;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    height: 0;
+    width: 125px;
+    text-align: center;
+}
+.operate .trapezoid {
+    border-bottom: 20px solid #FF5A5F;
+}
+.notify .trapezoid {
+    border-bottom: 20px solid #087E8B;
+}
+.trapezoid.mp {
+    margin-top: 1em;
+    border-bottom: 20px solid rgb(131, 196, 132);
+}
+.config .freq-input {
+    position: relative;
+    padding-left: 2em;
+    margin-top: 2em;
+}
+.config .f-box {
+    margin-right: 2em; 
+}
+.config .read-only {
+    padding-left: 0em;
+}
+.config .f-box .f-input{
+    width: 3em;
+}
+.config .f-box .f-input::-webkit-input-placeholder {
+    font-size: 0.6em;
+}
+.dots {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 2em;
+    letter-spacing: 2px;
+    height: 1em;
+}
+.footer-panel.mp .dots {
+    color: rgb(131, 196, 132);
+    margin: 0;
+}
+.PID {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+.Kp, .Ki, .Kd{
+    color: white;
+    display:flex;
+}
+.operate .dots {
+    margin-top: -0.2em;
+    color: #FF5A5F;
+}
+.operate .btns {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+}
+.operate .K-tau {
+    display: flex;
+    margin-top: 1em;
+    justify-content: space-around;
+}
+.operate .numb-input-box {
+   border: 1px solid #FF5A5F;
+}
+.operate .numb-input-box .numb-input {
+    color: #FF5A5F;
+}
+.operate .numb-input-box .fas.fa-chevron-up {
+    color: #FF5A5F;
+}
+.operate .numb-input-box .fas.fa-chevron-down {
+    color: #FF5A5F;
+}
+.operate .numb-input-box .fas.fa-chevron-up:hover {
+    color: rgb(255, 113, 118);
+}
+.operate .numb-input-box .fas.fa-chevron-down:hover {
+    color: rgb(255, 113, 118);
+}
+.operate .numb-input-box .fas.fa-chevron-up:active {
+    color: rgb(140, 4, 8);
+}
+.operate .numb-input-box .fas.fa-chevron-down:active {
+    color: rgb(140, 4, 8);
+}
+.operate .fas.fa-pause,.fas.fa-chevron-left,.fas.fa-chevron-right {
+    position: unset;
+    font-size:2.5rem;
+}
+.btn-entry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FF5A5F;
+    color: #FF5A5F;
+    border-radius: 2em;
+    width: 4em;
+    height: 4em;
+    transition: all 0.3s ease-in-out;
+}
+.btn-entry.forw, .reve, .stop {
+    background: #FF5A5FEE;
+    color: #000e;
+}
+
+.btn-entry:hover {
+    background: #FF5A5FEE;
+    color: #000e;
+}
+.btn-entry:active {
+    background: #FF5A5F;
+    border: 2px solid #000b;
+    color: #000b;
+}
+.set-sp1-box {
+    position: absolute;
+    top: 18em;
+    left: 20em;
+    text-align: center;
+    color: #212529;
+}
+.set-sp1-box.sp2 {
+    left: -6em;
+}
+.ssp {
+    font-size: 2em;
+}
+.hiexp {
+    position: absolute;
+    right: 1.6em;
+    color: #777; 
+}
+.control-status {
+    position: absolute;
+    top: 30em;
+    right: 38em;
+    width: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    width: 6.6em;
+}
+.control-status .led-box {
+    font-size: 0.8em;
+}
+@media screen and (max-width:880px) {
+    .entry-motor-img-2.col-md-4.offset-md-3 {
+        margin-bottom: 32em;
+        margin-top: 1em;
+    }
+    .motor-image {
+        margin-left: 4em;
+        margin-right: 0em;
+        width: 158px;
+        height: 133.5px;
+    }
+    .motor-image.for, .motor-image.rev {
+        position: absolute;
+        top: 8em;
+        left: 10em;
+    }
+    .motor-info {
+        height: 40%;
+        right: 3em;
+        top: 0.2em;
+        width: 12em;
+    }
+    .motor-info pre {
+        font-size: 12px;
+        color: #efede1;
+        margin-bottom: 0.2em;
+    }
+    .set-sp1-box, .set-sp1-box.sp2{
+        font-size: 0.8em;
+        top: 21em;
+        left: 20em;
+    }
+    .bottom-text{
+        padding-left: 1em;
+    }
+ 
+    .triangle-btn-box {
+        left: 36.5%;
+        top: 55.95em;
+    }
+    .speed-dc .dc {
+        margin-top: 6em;
+    }
+    .space{
+        height:0em!important;
+    }
+    .entry-footer.row{
+        height: 76em!important;
+    }
+    .speed-dc .dc .text {
+        right: 11.5em;
+        top: 8em;
+    }
+    .entry-page .dc-fre-adj {
+        top: 1em;
+        left: 1.5em;
+    }
+    .entry-page .dc-tribtn-box {
+        top: 7.78em;
+    }
+    .h-bar-box {
+        left: 18%;
+        top: 65em;
+    }
+    .height-modal.modal-body {
+        padding-top: 1.4em;
+        height: 18rem!important;
+    }
+    .height-tc .recharts-surface{
+        width: 350px!important;
+    }
+    .height-tc .recharts-wrapper {
+        width: 320px!important;
+    }
+    .height-tc .area-chart-wrapper .xAxis-name {
+        left: 14em;
+        top: 15.5em;
+    }
+    .height-tc .area-chart-wrapper:active .fas.fa-pause {
+        left: 25em;
+    }
+    .height-tc .forw-btn {
+        left: 22em;
+    }
+    .set-height {
+        left: 14em;
+        top: 14em;
+        margin-top: 0em;
+    }
+    .height-input {
+        width: 2.8em;
+    }
+    .Tau, .K {
+        width: 6em;
+    }
+    .K-tau .numb-input {
+        width: 75%;
+    }
+    .operate.col-md-3, .notify.col-md-6{
+        margin-top: 15em;
+    }    
+    .notify.col-md-6 .footer-panel .warn-panel {
+        width: 100%;
+    }
+    .notify.col-md-6 .footer-panel .warn-panel .warn-panel-content{
+        font-size: 0.8em;
+    }
+    .notify.col-md-6 .footer-panel .warn-panel .warn-panel-content .warn-item {
+        height: 26%;
+    }
+    .notify.col-md-6 .footer-panel .warn-panel .pagination {
+        top: 25em;
+    }
+    .notify.col-md-6 .footer-panel .jmp-to-current-btn {
+        bottom: 2.4em;
+    }
+    .notify .current-page {
+        left: 21.5em;
+    }
+    .notify .warn-amount {
+        left: 2em;
+    }
+    .noti-panel-footer .current-page, .notify .warn-amount {
+        font-size: 0.9em;
+        top: 25em;
+    }
+    .control-status {
+        top: 76.5em;
+        right: 9em;
+        width: 5.6em;
+    }
+}   
