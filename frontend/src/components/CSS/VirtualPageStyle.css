@@ -72,7 +72,7 @@
 
 @media screen and (max-width:880px) {
     .entry-page-wrapper {
-        height: 50rem;
+        height: 60rem;
     }
     .entry-page-wrapper .control-wrapper.col-md-4 {
         margin-left: 1em;
@@ -95,8 +95,8 @@
     }
     .entry-page-wrapper .led-btn-col.col {
         position: absolute;
-        top: 30em;
-        margin-left: 3em;
+        top: 40em;
+        margin-left: 1em;
     }    
     .background-pic {
         width: 366px;
